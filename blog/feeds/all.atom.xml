@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>cd2022</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2022-03-31T15:16:04+08:00</updated><entry><title>2022Spring CD 課程</title><link href="./2022-Spring-CD.html" rel="alternate"></link><published>2022-03-31T15:00:00+08:00</published><updated>2022-03-31T15:16:04+08:00</updated><author><name>huang41</name></author><id>tag:None,2022-03-31:./2022-Spring-CD.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>cd2022</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2022-03-31T15:22:16+08:00</updated><entry><title>2022Spring CD 課程</title><link href="./2022-Spring-CD.html" rel="alternate"></link><published>2022-03-31T15:00:00+08:00</published><updated>2022-03-31T15:22:16+08:00</updated><author><name>huang41</name></author><id>tag:None,2022-03-31:./2022-Spring-CD.html</id><summary type="html">&lt;p&gt;2022 Spring 協同產品設計實習&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2022 Spring 協同產品設計實習&lt;/p&gt;
 
 
 &lt;h2&gt;W2&lt;/h2&gt;
 &lt;p&gt;hello&lt;/p&gt;
 &lt;h2&gt;w3&lt;/h2&gt;
-&lt;p&gt;分配到第1~第6的影片&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry></feed>
+&lt;p&gt;分配到第1~第6的影片
+網站影片&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry></feed>
