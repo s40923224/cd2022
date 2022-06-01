@@ -2,7 +2,7 @@
         <head>
         <title>cmsimde_site</title>
         <meta charset="utf-8">
-<meta property="head" content="H2">
+<meta property="head" content="H1">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -139,59 +139,12 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">online << <a href='online.html'>Previous</a> <a href='W14.html'>Next</a> >> W14<br /><h1>w13</h1>
-<p><span>part3.</span><span>(說明如何在線上讀取各學員每週任務進度)</span></p>
-<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">from browser import html
-from browser import document
-
-brython_div = document["brython_div"]
-
-# 根據 href 與 content 將 html 元件中的 anchor 插入頁面
-def makeLink(href, content):
-    brython_div &lt;= html.A(content, href=href)
-    brython_div &lt;= html.BR()
-
-# 將 2b 學號、帳號與組別的網址設為 studlist_url
-aorb = "2b"
-page_title = "online"
-studlist_url = "https://mde.tw/studlist/2022spring/" + aorb + ".txt"
-# 利用 open() 與 read() 讀出資料
-data = open(studlist_url).read()
-# 若要 debug 可以查驗所取得的 data 內容
-#print(data)
-# 利用 split() 函式, 使用每一行的跳行符號\n切割所讀回的資料
-# 切割後的 stud 為數列 (list)
-stud = data.split("\n")
-# 列出去頭(標題)與去尾(空白行)的數列查驗
-#print(stud[1:-1])
-count = 0
-# blog name w6_studno.html
-member = []
-# 利用 for 迴圈逐一取出數列中的元素(每位學員的資料)
-for i in stud[1:-1]:
-    #print(i)
-    studno, github, grp = i.split("\t")
-    #print(studno, github, grp)
-    #print(type(grp))
-    stud_url = "https://" + github + ".github.io/cd2022/content/" + page_title + ".html"
-    url_title = studno + " " + page_title
-    try:
-        blog_content = open(stud_url).read()
-        makeLink(stud_url, url_title)
-    except:
-        #print(studno + " 尚無 w6 blog!")
-        pass
-    #makeLink(stud_url, url_title)
-    # 因為有人沒有組別或沒有登記 github 帳號
-    if grp != "" and github != "":
-        if grp == "1":
-            #print(studno)
-            count += 1
-    else:
-        print("尚未分組者:", studno)
-        
-print("done")</pre>
-<br />online << <a href='online.html'>Previous</a> <a href='W14.html'>Next</a> >> W14</div>
+    <div id="tipue_search_content">w13 << <a href='w13.html'>Previous</a> <br /><h1>W14</h1>
+<ol>
+<li><a href="https://gmnfuedutw-my.sharepoint.com/:v:/g/personal/yen_gm_nfu_edu_tw/EUXfX4gfanBLhsgFnOnenYABnAF5wLQdG_WCeV3ElvxGww?e=qogc4M">2b_w14_part1.mp4</a><span> </span>(說明如何利用 Leo Editor 與 Python 編寫 CoppeliaSim 場景中的控制程式,<span> </span><a href="https://mde.tw/cd2022_guide/downloads/w14/w14_copsim_py_leo_ttt.7z">w14_copsim_py_leo_ttt.7z</a>)</li>
+<li><a href="https://gmnfuedutw-my.sharepoint.com/:v:/g/personal/yen_gm_nfu_edu_tw/EYN-ut16-J5CkHxzYFYLUaMBJTTaCjnzhdF0qHoMgCdurw?e=1dCUke">2b_w14_part2.mp4</a><span> </span>(說明如何利用 Lua 編寫 MTB robot 機械手臂的控制程式)</li>
+<li><a href="https://gmnfuedutw-my.sharepoint.com/:v:/g/personal/yen_gm_nfu_edu_tw/EflGSj2elMBNgIVHrkgt06EBCku3532ovvk-OnP0jwoSMg?e=iYqI9g">2b_w14_part3.mp4</a><span> </span>(說明如何利用 Lua 引入 suctionpad component 執行物件吸取與釋放)</li>
+</ol></div></div><br />w13 << <a href='w13.html'>Previous</a> </div>
         
     <!-- footer -->
       <div class="container">
