@@ -375,8 +375,12 @@ var winkVideoData = {
 <div class="winkVideoControlBarProgressRightClass"></div>
 <h1>online</h1>
 <h2>w13</h2>
-<p><span>part3.</span><span>(說明如何在線上讀取各學員每週任務進度)</span></p>
-<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">from browser import html
+<p>1.<span> </span><a href="https://gmnfuedutw-my.sharepoint.com/:v:/g/personal/yen_gm_nfu_edu_tw/EcmwzqLi1_FEgyi7Gh3vOb8BoE9pYbbw6CLF17_brvJing?e=ff8b2d">cd2022_w13_2b_part1.mp4</a><span> </span>(NX 與 CoppeliaSim 整合應用項目說明)</p>
+<p>2.<span> </span><a href="https://gmnfuedutw-my.sharepoint.com/:v:/g/personal/yen_gm_nfu_edu_tw/EegXPYSdUGJItXCyCsTtne8Bu0gGNgp7a7Kub3UO-wNPSQ?e=isZv8C">cd2022_w13_2b_part2.mp4</a><span> </span>(uArm 主體零件工程圖取尺寸流程說明)</p>
+<p>3.<span> </span><a href="https://gmnfuedutw-my.sharepoint.com/:v:/g/personal/yen_gm_nfu_edu_tw/EcsSMO-AE7pHkgUbAvklEtABvb0_vlKVJZ5Q3Qqaql8MYQ?e=0xUVZK">cd2022_w13_2b_part3.mp4</a><span> </span>(說明如何在線上讀取各學員每週任務進度)</p>
+<p><a href="https://gist.githubusercontent.com/mdecourse/e00a3b68d4defee1987d18cc998b377a/raw/76f525f56ce4def0316d4b46af8e9100f91c21c8/check_cd2022_page.py">check_cd2022_page.py</a></p>
+<p></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">from browser import html
 from browser import document
 
 brython_div = document["brython_div"]
@@ -426,9 +430,34 @@ for i in stud[1:-1]:
         print("尚未分組者:", studno)
         
 print("done")</pre>
-<h1>W14</h1>
+<p></p><h1>W14</h1>
 <ol>
 <li><a href="https://gmnfuedutw-my.sharepoint.com/:v:/g/personal/yen_gm_nfu_edu_tw/EUXfX4gfanBLhsgFnOnenYABnAF5wLQdG_WCeV3ElvxGww?e=qogc4M">2b_w14_part1.mp4</a><span> </span>(說明如何利用 Leo Editor 與 Python 編寫 CoppeliaSim 場景中的控制程式,<span> </span><a href="https://mde.tw/cd2022_guide/downloads/w14/w14_copsim_py_leo_ttt.7z">w14_copsim_py_leo_ttt.7z</a>)</li>
 <li><a href="https://gmnfuedutw-my.sharepoint.com/:v:/g/personal/yen_gm_nfu_edu_tw/EYN-ut16-J5CkHxzYFYLUaMBJTTaCjnzhdF0qHoMgCdurw?e=1dCUke">2b_w14_part2.mp4</a><span> </span>(說明如何利用 Lua 編寫 MTB robot 機械手臂的控制程式)</li>
 <li><a href="https://gmnfuedutw-my.sharepoint.com/:v:/g/personal/yen_gm_nfu_edu_tw/EflGSj2elMBNgIVHrkgt06EBCku3532ovvk-OnP0jwoSMg?e=iYqI9g">2b_w14_part3.mp4</a><span> </span>(說明如何利用 Lua 引入 suctionpad component 執行物件吸取與釋放)</li>
-</ol></div></div>
+</ol>
+<p></p>
+<script>
+var winkVideoData = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+  },
+};
+</script>
+<!-- 接下來將 mp4 檔案從 downloads 目錄取出 -->
+<div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData" height="630" muted="true" width="1008">
+<source src="./../downloads/w14.mp4" type="video/mp4"/></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
+<p></p></div></div>
