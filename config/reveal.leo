@@ -20,11 +20,7 @@
 <v t="leo.20220314203825.6"><vh>slides div</vh>
 <v t="leo.20220314203825.7"><vh>slide 1</vh></v>
 <v t="leo.20220314203825.8"><vh>slide 2</vh></v>
-<v t="leo.20220314203825.9"><vh>slide3</vh>
-<v t="leo.20220314203825.10"><vh>slide 3-1</vh></v>
-<v t="leo.20220314203825.11"><vh>slide 3-2</vh></v>
-<v t="leo.20220314203825.12"><vh>slide 3-3</vh></v>
-</v>
+<v t="leo.20220314203825.9"><vh>slide3</vh></v>
 <v t="leo.20220314203825.13"><vh>slide 4</vh></v>
 <v t="leo.20220314203825.14"><vh>slide 5 </vh></v>
 <v t="leo.20220314203825.15"><vh>slide 6</vh></v>
@@ -152,33 +148,10 @@ vertical: body pane on the botton</t>
 <t tx="leo.20220314203825.1">@language xml
 @tabwidth -4
 @others</t>
-<t tx="leo.20220314203825.10">&lt;section&gt;
-    &lt;h2&gt;Vertical Slides&lt;/h2&gt;
-    &lt;p&gt;Slides can be nested inside of each other.&lt;/p&gt;
-    &lt;p&gt;Use the &lt;em&gt;Space&lt;/em&gt; key to navigate through all slides.&lt;/p&gt;
-    &lt;br&gt;
-    &lt;a href="#" class="navigate-down"&gt;
-        &lt;img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow"&gt;
-    &lt;/a&gt;
-&lt;/section&gt;
-</t>
-<t tx="leo.20220314203825.11">&lt;section&gt;
-    &lt;h2&gt;Basement Level 1&lt;/h2&gt;
-    &lt;p&gt;Nested slides are useful for adding additional detail underneath a high level horizontal slide.&lt;/p&gt;
-&lt;/section&gt;
-</t>
-<t tx="leo.20220314203825.12">&lt;section&gt;
-    &lt;h2&gt;Basement Level 2&lt;/h2&gt;
-    &lt;p&gt;That's it, time to go back up.&lt;/p&gt;
-    &lt;br&gt;
-    &lt;a href="#/2"&gt;
-        &lt;img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow"&gt;
-    &lt;/a&gt;
-&lt;/section&gt;</t>
 <t tx="leo.20220314203825.13">&lt;section&gt;
-    &lt;h2&gt;Slides&lt;/h2&gt;
+    &lt;h2&gt;w7&lt;/h2&gt;
     &lt;p&gt;
-        Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at &lt;a href="https://slides.com" target="_blank"&gt;https://slides.com&lt;/a&gt;.
+
     &lt;/p&gt;
 &lt;/section&gt;
 
@@ -629,24 +602,25 @@ console.log( '"customevent" has fired' );
     &lt;/a&gt;
     &lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
     &lt;p&gt;
-        &lt;small&gt;Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; and &lt;a href="https://github.com/hakimel/reveal.js/graphs/contributors"&gt;contributors&lt;/a&gt;&lt;/small&gt;
+        &lt;small&gt;Created by &lt;a href="https://s40923224.github.io/cd2022/content/index.html"target="_blank"&gt;40923224&lt;/a&gt;&lt;/small&gt;
     &lt;/p&gt;
 &lt;/section&gt;
 
 </t>
 <t tx="leo.20220314203825.8">&lt;section&gt;
-    &lt;h2&gt;Hello There&lt;/h2&gt;
+    &lt;h2&gt;w2個人、分組倉儲&lt;/h2&gt;
     &lt;p&gt;
-        reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
+   &lt;a href="https://s40923224.github.io/cd2022/content/w2.html"target="_blank"&gt;w2網頁連結&lt;/a&gt;
     &lt;/p&gt;
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20220314203825.9">&lt;!-- Example of nested vertical slides --&gt;
-&lt;section&gt;
-    @others
+<t tx="leo.20220314203825.9">&lt;section&gt;
+    &lt;h2&gt;w3分配影片&lt;/h2&gt;
+    &lt;p&gt;
+   &lt;a href="https://s40923224.github.io/cd2022/content/w3.html"target="_blank"&gt;w3網頁連結&lt;/a&gt;
+    &lt;/p&gt;
 &lt;/section&gt;
-
 </t>
 </tnodes>
 </leo_file>
