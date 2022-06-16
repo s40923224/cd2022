@@ -637,7 +637,46 @@ end</pre>
 </div>
 </div>
 <h2>w15</h2>
-<h2>w16</h2>
+<p><a href="https://gmnfuedutw-my.sharepoint.com/:v:/g/personal/yen_gm_nfu_edu_tw/EWiMlDXDZqFEoxKsC_0TjYkBQwWcIwgDEleEtDsWRkF6rA?e=q113v2">cd2022_w15_2a_part1.mp4</a><span> </span>(uArm robot NX12 與 Coppeliasim 場景建立)</p>
+<p><a href="https://gmnfuedutw-my.sharepoint.com/:v:/g/personal/yen_gm_nfu_edu_tw/ERDFYmadsZ5KhaRkVpR_2RcBbxelj5nr4U3VZ68xempeCQ?e=Np54So">cd2022_w15_2b_part1.mp4</a><span> </span>( Coppeliasim remote API in Python)</p>
+<p>uarm 場景 in IK mode:<span> </span><a href="https://www.coppeliarobotics.com/helpFiles/en/inverseKinematicsTutorial.htm">https://www.coppeliarobotics.com/helpFiles/en/inverseKinematicsTutorial.htm</a></p>
+<p>目前必須透過程式設定才能使用 IK Dummy 聯立求解.</p>
+<p>Reference:<span> </span><a href="https://www.youtube.com/watch?v=o8l-p4DhP7M">https://www.youtube.com/watch?v=o8l-p4DhP7M</a></p>
+<p><span>方向鍵編號:</span></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">if (auxiliaryData[1]==119) then
+    -- up key
+if  (auxiliaryData[1]==115) then
+    -- down key
+if  (auxiliaryData[1]==100) then
+    -- right key 
+if  (auxiliaryData[1]==97) then
+    -- left key</pre>
+<p><span><br/><br/></span></p>
+<p></p>
+<script>
+var winkVideoData = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+  },
+};
+</script>
+<!-- 接下來將 mp4 檔案從 downloads 目錄取出 -->
+<div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData" height="630" muted="true" width="1008">
+<source src="./../downloads/w15.mp4" type="video/mp4"/></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
+<p></p><h2>w16</h2>
 <p><a href="https://gmnfuedutw.sharepoint.com/sites/cd2022_w13/Student%20Work/Working%20files/%E9%BB%83%E5%A3%AB%E8%82%B2/2b%20w16%20online%20exam/w16_exam%20.pdf?login_hint=40923224%40gm.nfu.edu.tw">全部答案pdf</a></p>
 <p>1.已知左側綠色底座的 uArm 機械手臂, 其基座座標原點位於絕對座標 (1.0, 0.25, 0), 啟動模擬後 green_suctionpad_frame 座標原點則位於 (0.22859, 0.26047, 0.36576), 請列出運算式說明, 啟動模擬後 joint1, joint2 與 joint3 分別以逆時針旋轉 5 度後, 求 green_suctionpad_frame 的絕對座標值.</p>
 <p><img alt="" height="611" src="/images/w16.jpg" width="1000"/></p>
