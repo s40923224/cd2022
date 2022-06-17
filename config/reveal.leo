@@ -149,9 +149,10 @@ vertical: body pane on the botton</t>
 @tabwidth -4
 @others</t>
 <t tx="leo.20220314203825.13">&lt;section&gt;
-    &lt;h2&gt;w7&lt;/h2&gt;
+    &lt;h2&gt;w6&lt;/h2&gt;
     &lt;p&gt;
-
+    &lt;a href="https://s40923224.github.io/cd2022/content/w6.html"target="_blank"&gt;w6網頁&lt;/a&gt;
+    &lt;img src="https://s40923224.github.io/cd2022/images/w6.jpg"&gt;
     &lt;/p&gt;
 &lt;/section&gt;
 
@@ -600,7 +601,7 @@ console.log( '"customevent" has fired' );
     &lt;a href="https://revealjs.com"&gt;
         &lt;img src="https://static.slid.es/reveal/logo-v1/reveal-white-text.svg" alt="reveal.js logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo"&gt;
     &lt;/a&gt;
-    &lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
+    &lt;h3&gt;2022Spring CD 課程&lt;/h3&gt;
     &lt;p&gt;
         &lt;small&gt;Created by &lt;a href="https://s40923224.github.io/cd2022/content/index.html"target="_blank"&gt;40923224&lt;/a&gt;&lt;/small&gt;
     &lt;/p&gt;
@@ -616,7 +617,7 @@ console.log( '"customevent" has fired' );
 
 </t>
 <t tx="leo.20220314203825.9">&lt;section&gt;
-    &lt;h2&gt;w3分配影片&lt;/h2&gt;
+    &lt;h2&gt;w3 NX分配影片&lt;/h2&gt;
     &lt;p&gt;
    &lt;a href="https://s40923224.github.io/cd2022/content/w3.html"target="_blank"&gt;w3網頁連結&lt;/a&gt;
     &lt;/p&gt;
