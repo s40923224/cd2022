@@ -133,7 +133,7 @@ vertical: body pane on the botton</t>
 <t tx="leo.20220314203825.14">&lt;section&gt;
     &lt;h2&gt;w7任務&lt;/h2&gt;
     &lt;p&gt;
-   &lt;a href="https://s40923224.github.io/cd2022/content/w7.html"&gt;w2網頁連結&lt;/a&gt;
+   &lt;a href="https://s40923224.github.io/cd2022/content/w7.html"&gt;w7網頁連結&lt;/a&gt;
    參考w7任務的wink並修改路徑
     &lt;/p&gt;
 &lt;/section&gt;</t>
@@ -199,7 +199,7 @@ vertical: body pane on the botton</t>
     &lt;h2&gt;w15任務&lt;/h2&gt;
     &lt;p&gt;
     將uarm轉入coppeliaSim並利用程式吸取及放置方塊
-   &lt;a href="https://s40923224.github.io/cd2022/content/w16.html"&gt;w15網頁&lt;/a&gt;
+   &lt;a href="https://s40923224.github.io/cd2022/content/w15.html"&gt;w15網頁&lt;/a&gt;
     &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20220314203825.22">&lt;section&gt;
