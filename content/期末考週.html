@@ -198,10 +198,10 @@ var winkVideoData = {
 <p>心得:一開始improt mesh 將 uarm 丟入coppeliaSim，丟入實為單一形狀，選取機械手臂後，使用devide selected shapes，即可開始使用joint安裝軸，再進行零件的排列，第一次組裝完畢載入程式碼，uarm亂動，將某些零件的dynamic關掉就恢復正常，還有可以使用merge selected shapes將銷或軸與零件固定，才不會有零件懸浮在空中。</p>
 <p>4.<span> XML UI slider 控制功能</span></p>
 <p><iframe allowfullscreen="allowfullscreen" height="630" src="//www.youtube.com/embed/EH6xfPyyWbk" width="1008"></iframe></p>
-<p>心得: 使用 XML UI slider時，需要先將coppeliaSim裡面的機械手臂執行，再將程式碼都到SciTE後點擊tool --&gt; go --&gt; to connect ，即可操控機械手臂。</p>
+<p>心得: 使用 XML UI slider時，需要先將coppeliaSim裡面的機械手臂執行，再將程式碼都到SciTE後點擊tools --&gt; go --&gt; to connect ，即可操控機械手臂。</p>
 <p>5. block 方塊零件的取放模擬影片</p>
 <p><iframe allowfullscreen="allowfullscreen" height="630" src="//www.youtube.com/embed/-Rz9K7bykQU" width="1008"></iframe></p>
-<p>心得:使用鍵盤操作機械手臂，K、L操作joint1，H、J操作joint2，F、G操作joint3，P、Q操作吸盤吸或放，若吸盤不小心吸到其他東西，只需要按P就可以放開了，不需要重新操作，但操作時須注意，不能作出超越機械手臂能承受的範圍，機械手臂會壞掉，只能重新操作。</p>
+<p>心得:使用鍵盤操作機械手臂，K、L操作joint1，H、J操作joint2，F、G操作joint3，P、Q操作吸盤吸或放，若吸盤不小心吸到其他東西，只需要按Q就可以放開了，不需要重新操作，但操作時須注意，不能作出超越機械手臂能承受的範圍，機械手臂會壞掉，只能重新操作。</p>
 <p>6.Python remote API, 錄製圖形介面 slider 控制前三軸的轉動影片</p>
 <p><iframe allowfullscreen="allowfullscreen" height="630" src="//www.youtube.com/embed/_fgaAbr60-8" width="1008"></iframe></p>
 <p>心得:使用remote API時，需要取得對方的電腦IP位址，再將uarm_tkinter_control.py丟進SciTE，找到self.clientID將'   '的IP位址改成對方的，被控制方需要在Main script裡增加一行simRemoteApi.start(19999)，即可遠端操控。</p><br />w16 << <a href='w16.html'>Previous</a> </div>
